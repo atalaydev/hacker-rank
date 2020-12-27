@@ -4,8 +4,8 @@ def solve(n, m):
 
 
 if __name__ == '__main__':
-    _ = input().split()
+    _ = input()
     n = set(map(int, input().split()))
-    _ = input().split()
+    _ = input()
     m = set(map(int, input().split()))
     print('\n'.join(map(str, solve(n, m))))
