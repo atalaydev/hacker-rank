@@ -3,7 +3,7 @@ def solve(n, a, b):
 
 
 if __name__ == '__main__':
-    _ = input().split()
+    _ = input()
     n = list(map(int, input().split()))
     a = set(map(int, input().split()))
     b = set(map(int, input().split()))
