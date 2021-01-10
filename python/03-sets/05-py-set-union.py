@@ -3,5 +3,5 @@ if __name__ == '__main__':
     a = set(map(int, input().split()))
     _ = input()
     b = set(map(int, input().split()))
-
+    
     print(len(a.union(b)))
