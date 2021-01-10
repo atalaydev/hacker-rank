@@ -13,8 +13,7 @@ if __name__ == '__main__':
             (lambda b: a.difference_update(b)),
     }
 
-    action_length = int(input())
-    for i in range(action_length):
+    for _ in range(int(input())):
         action, _ = list(map(str, input().split()))
         func = actions.get(action)(set(map(int, input().split())))
 
