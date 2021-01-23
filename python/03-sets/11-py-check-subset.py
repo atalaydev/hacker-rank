@@ -1,7 +1,6 @@
 if __name__ == '__main__':
     results = []
-    t = int(input())
-    for s in range(t):
+    for _ in range(int(input())):
         _ = input()
         a = set(map(int, input().split()))
         _ = input()
